@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0d0d0d;
+}
+
+.logo {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+.logo h1 {
+    margin: 15px;
+    padding: 25px;
+    font-size: 3rem;
+    color: white;
+}
+.navbar {
+    margin-inline: 30px;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar li {
+    display: inline-block;
+    padding: 15px;
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+.image-top {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+    
+}
+.image-top img {
+    margin-top: 20%;
+    width: 90%;
+    height: 400px;
+    display: flex;
+}
+
+.image img:hover {
+    /* border: 2px solid red; */
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 aliceblue;
+}
+footer {
+    margin-top: 3%;
+    border-top: 2px solid white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-action {
+    margin: 2em;
+}
+.font-action a {
+    padding: 10px;
+    border-radius: 1.5em;
+    
+}
+
+.font-action .fb:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 aliceblue;
+    background: radial-gradient(circle,#0866ff,aliceblue);
+}
+.font-action .insta:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 aliceblue;
+    background: radial-gradient(circle,#d6189d,#f5fffd);
+}
+.font-action .git:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 aliceblue;
+    background: radial-gradient(circle,#f5fffd,aliceblue);
+}
+.font-action .twit:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 aliceblue;
+    background: radial-gradient(circle,aliceblue,#ffffff);
+}
+.copyright {
+    color: #551b8c;
+    text-align: center;
+}
